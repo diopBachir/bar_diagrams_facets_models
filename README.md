@@ -23,6 +23,13 @@ Trois dossier sont présents dans le projet :
 
 # Clonage du projet
 Deux options s'offrent à l'utilisateur :
-**1. Télécharger directement le fichier zip du projet :** il suffit d'aller dans le référentiel du projet ([ici](https://github.com/diopBachir/bar_diagrams_facets_models.git)), de cliquer sur `code` et enfin sur `Download ZIP`.
-**2. 
+1. Télécharger directement le fichier zip du projet : il suffit d'aller dans le référentiel du projet ([ici](https://github.com/diopBachir/bar_diagrams_facets_models.git)), de cliquer sur `code` et enfin sur `Download ZIP`.
+2. Si [git](https://git-scm.com/) est installé sur la machine de l'utilisateur, le projet peut-être cloner en suivant les étapes ci-dessous :
+   1. Open Git Bash
+   2. Change the current working directory to the location where you want the cloned directory.
+   3. Type `git clone`, and then paste the URL you copied earlier :
+      ```
+      git clone [https://github.com/diopBachir/bar_diagrams_facets_models.git](https://github.com/diopBachir/bar_diagrams_facets_models.git)
+      ```
+      
 
