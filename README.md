@@ -23,5 +23,6 @@ Trois dossier sont présents dans le projet :
 
 # Clonage du projet
 Deux options s'offrent à l'utilisateur :
-*1. Télécharger directement le fichier zip du projet :* il suffit d'aller dans le référentiel du projet ([ici](https://github.com/diopBachir/bar_diagrams_facets_models.git)), de cliquer sur `code` et enfin sur 
+**1. Télécharger directement le fichier zip du projet :** il suffit d'aller dans le référentiel du projet ([ici](https://github.com/diopBachir/bar_diagrams_facets_models.git)), de cliquer sur `code` et enfin sur `Download ZIP`.
+**2. 
 
