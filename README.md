@@ -23,5 +23,5 @@ Trois dossier sont présents dans le projet :
 
 # Clonage du projet
 Deux options s'offrent à l'utilisateur :
-- 
+*1. Télécharger directement le fichier zip du projet :* il suffit d'aller dans le référentiel du projet ([ici])
 
