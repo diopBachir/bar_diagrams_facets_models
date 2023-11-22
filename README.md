@@ -2,7 +2,7 @@
 This is a model (R code) of a bar chart with [`ggplot`](https://ggplot2.tidyverse.org/)
 
 # Packages 
-This code needs five R packages to run : `devtools`, `install.load`, `tidyverse`, `here`, `readxl`
+This code needs five R packages to run : `devtools`, `install.load`, `tidyverse`, `here`, `readxl`.
 All these packages can be installed from [CRAN](https://cran.r-project.org/web/packages/available_packages_by_name.html) with the following code.
 ```
 install.packages("devtools")
@@ -32,7 +32,7 @@ The user has two options for cloning the project :
       git clone https://github.com/diopBachir/bar_diagrams_facets_models.git
       ```
 
-# Utilisation du projet
+# Using the project
 Once the project has been cloned, simply open the project file ([bar_diagrams_facets_models.Rproj](bar_diagrams_facets_models.Rproj) on [Rstudio](https://posit.co/download/rstudio-desktop/). Next, run the scripts one by one in the order shown below :
 1. [files/load_packages.R](files/load_packages.R)
 2. [files/graph_theme.R](files/graph_theme.R)
