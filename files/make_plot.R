@@ -2,7 +2,7 @@
 base::source(here::here("files", "load_packages.R"))
 
 # import data
-data<- readxl::read_excel(here::here("data", "data_test.xlsx"))
+# data<- readxl::read_excel(here::here("data", "data_test.xlsx"))
 
 # ggplot graph theme [function : plot_theme()]
 base::source(here::here("files", "graph_theme.R"))
