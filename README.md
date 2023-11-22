@@ -1,9 +1,9 @@
 # bar_diagrams_facets_models
-Ceci est un modèle (code R) de diagramme en barres avec `ggplot`
+This is a model (R code) of a bar chart with [`ggplot`](https://ggplot2.tidyverse.org/)
 
-# Packages utilisés
-Ce code a besoin de cinq packages pour fonctionner : `devtools`, `install.load`, `tidyverse`, `here`, `readxl`
-Tous ces packages peuvent être installé à partir du [CRAN](https://cran.r-project.org/web/packages/available_packages_by_name.html) avec le code ci-dessous.
+# Packages 
+This code needs five R packages to run : `devtools`, `install.load`, `tidyverse`, `here`, `readxl`
+All these packages can be installed from [CRAN](https://cran.r-project.org/web/packages/available_packages_by_name.html) with the following code.
 ```
 install.packages("devtools")
 install.packages("install.load")
@@ -12,24 +12,32 @@ install.packages("here")
 install.packages("readxl")
 ```
 
-# Dossiers
-Trois dossier sont présents dans le projet : 
-- **`files`** : contient les scripts du projets. Ce dossier contient trois scripts :
-  - *`load_packages.R`* : code de chargement des packages nécessaires
-  - *`graph_theme.R`* : thème/mise en page du graphique
-  - *`make_plot.R`* : code de traçage du graphique (diagramme en barre)
-- **`data`** : contient les données utilisées pour le graphique
-- **`results`** : contient les graphiques exportés en pdf et jpeg
+# Folders tree
+Three folders are included in the project : 
+- **`files`** : contains the project scripts. This folder contains three main scripts:
+  - *`load_packages.R`* : librairies/package loading code
+  - *`graph_theme.R`* : theme/graphic layout
+  - *`make_plot.R`* : graph plotting code (bar chart)
+- **`data`** : contains the data used for the graph
+- **`results`** : contains graphics exported in pdf and jpeg format
 
-# Clonage du projet
-Deux options s'offrent à l'utilisateur :
-1. Télécharger directement le fichier zip du projet : il suffit d'aller dans le référentiel du projet ([ici](https://github.com/diopBachir/bar_diagrams_facets_models.git)), de cliquer sur `code` et enfin sur `Download ZIP`.
-2. Si [git](https://git-scm.com/) est installé sur la machine de l'utilisateur, le projet peut-être cloner en suivant les étapes ci-dessous :
+# Project cloning
+The user has two options for cloning the project :
+1. Download the project zip file directly : just go to the project repository ([here](https://github.com/diopBachir/bar_diagrams_facets_models.git)), click on `code` and then `Download ZIP`.
+2. If [git](https://git-scm.com/) is installed on the user's machine, the project can be cloned by following the steps below :
    1. Open Git Bash
    2. Change the current working directory to the location where you want the cloned directory.
    3. Type `git clone`, and then paste the URL you copied earlier :
       ```
-      git clone [https://github.com/diopBachir/bar_diagrams_facets_models.git](https://github.com/diopBachir/bar_diagrams_facets_models.git)
+      git clone https://github.com/diopBachir/bar_diagrams_facets_models.git
       ```
-      
+
+# Utilisation du projet
+Once the project has been cloned, simply open the project file ([bar_diagrams_facets_models.Rproj](bar_diagrams_facets_models.Rproj) on [Rstudio](https://posit.co/download/rstudio-desktop/). Next, run the scripts one by one in the order shown below :
+1. [files/load_packages.R](files/load_packages.R)
+2. [files/graph_theme.R](files/graph_theme.R)
+3. [files/make_plot.R](files/make_plot.R)
+
+# Contribution | Suggestions
+[serigne_bassirou.diop@ird.fr](mailto:serigne_bassirou.diop@ird.fr) | [diop.serigne-bassirou@ugb.edu.sn](mailto:diop.serigne-bassirou@ugb.edu.sn)
 
