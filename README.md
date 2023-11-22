@@ -24,7 +24,7 @@ Three folders are included in the project :
 # Project cloning
 The user has two options for cloning the project :
 1. Download the project zip file directly : just go to the project repository ([here](https://github.com/diopBachir/bar_diagrams_facets_models.git)), click on `code` and then `Download ZIP`.
-2. If [git](https://git-scm.com/) is installed on the user's machine, the project can be cloned by following the steps below :
+2. If [git](https://git-scm.com/) is installed on the user's laptop (windows), the project can be cloned by following the steps below :
    1. Open Git Bash
    2. Change the current working directory to the location where you want the cloned directory.
    3. Type `git clone`, and then paste the URL you copied earlier :
@@ -33,7 +33,7 @@ The user has two options for cloning the project :
       ```
 
 # Using the project
-Once the project has been cloned, simply open the project file ([bar_diagrams_facets_models.Rproj](bar_diagrams_facets_models.Rproj) on [Rstudio](https://posit.co/download/rstudio-desktop/). Next, run the scripts one by one in the order shown below :
+Once the project has been cloned, simply open the project file ([bar_diagrams_facets_models.Rproj](bar_diagrams_facets_models.Rproj) on [Rstudio](https://posit.co/download/rstudio-desktop/)). Next, run the scripts one by one in the order shown below :
 1. [files/load_packages.R](files/load_packages.R)
 2. [files/graph_theme.R](files/graph_theme.R)
 3. [files/make_plot.R](files/make_plot.R)
